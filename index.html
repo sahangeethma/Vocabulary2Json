@@ -12,7 +12,12 @@
   </head>
   <body>
     <div class="container my-5">
-      <h2 class="mb-4">Add New Word</h2>
+      <div class="d-grid gap-2 d-flex justify-content-between mb-4">
+        <h2>Add New Word</h2>
+        <button type="submit" id="open-json" class="btn btn-outline-dark">
+          Open.JSON
+        </button>
+      </div>
       <form id="word-form">
         <div class="mb-3">
           <input
@@ -34,7 +39,9 @@
         </div>
         <div class="d-grid gap-2 d-flex justify-content-between mb-4">
           <button type="submit" class="btn btn-dark w-100">Add Word</button>
-          <button id="copy-json" class="btn btn-outline-dark">Copy.JSON</button>
+          <button type="submit" id="copy-json" class="btn btn-outline-dark">
+            Copy.JSON
+          </button>
         </div>
       </form>
       <div id="word-list"></div>

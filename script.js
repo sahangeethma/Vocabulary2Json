@@ -35,6 +35,12 @@ function deleteWord(index) {
   renderWordList();
 }
 
+document.getElementById("open-json").addEventListener("click", () => {
+  window.location.replace(
+    "https://github.com/sahangeethma/KoreanQuizV3/edit/main/words.json"
+  );
+});
+
 // Handle form submission
 wordForm.addEventListener("submit", (e) => {
   e.preventDefault();
