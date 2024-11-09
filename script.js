@@ -4,13 +4,33 @@ const copyJsonBtn = document.getElementById("copy-json");
 
 // Predefined categories for the dropdown
 const categories = [
-  "numbers",
-  "greetings",
-  "food",
-  "colors",
-  "family",
-  "weather",
-  "animals",
+  "6.basic_life.my_name_is_tuan",
+  "7.basic_life.this_is_the_office",
+  "8.basic_life.i_have_lunch_at_1230_pm",
+  "9.basic_life.how_many_family_members_do_you_have",
+  "10.basic_life.i_studied_korean_at_the_library_yesterday",
+  "11.basic_life.please_give_me_five_apples",
+  "12.basic_life.there_is_a_pharmacy_next_to_the_hospital",
+  "13.basic_life.lets_meet_in_front_of_city_hall_at_7_oclock",
+  "14.basic_life.i_would_like_to_have_bibimbap",
+  "15.basic_life.i_feel_good_because_the_weather_is_clear_and_sunny",
+
+  "16.daily_and_leisure_life.i_usually_play_tennis_when_i_have_time",
+  "17.daily_and_leisure_life.i_will_go_visit_jejudo_over_the_break",
+  "18.daily_and_leisure_life.i_go_by_bus_or_subway",
+  "19.daily_and_leisure_life.this_is_hangook_furniture_isnt_it",
+  "20.daily_and_leisure_life.ill_wash_the_dishes",
+  "21.daily_and_leisure_life.would_you_like_some_help_setting_the_table",
+  "22.daily_and_leisure_life.do_not_jaywalk",
+  "23.daily_and_leisure_life.use_both_hands_when_giving_something_to_your_elders",
+  "24.daily_and_leisure_life.i_watch_korean_movies_to_study_the_korean_language",
+  "25.daily_and_leisure_life.i_go_to_church_every_sunday",
+
+  "26.public_institutions.please_take_this_medicine_after_a_meal",
+  "27.public_institutions.where_does_it_hurt",
+  "28.public_institutions.i_came_to_open_a_bank_account",
+  "29.public_institutions.i_would_like_to_send_a_postcard_to_the_philippines",
+  "30.public_institutions.can_i_learn_taekwondo_there",
 ];
 let wordData = [];
 
