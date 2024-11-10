@@ -110,23 +110,8 @@ const categories = [
     items: ["59. Industrial Safety I", "60. Industrial Safety II"],
   },
 ];
+
 let wordData = [];
-
-// // Initialize categories in wordData
-// categories.forEach((category) => {
-//   wordData[category] = [];
-// });
-
-// // Function to create category dropdown
-// function createCategoryDropdown() {
-//   const select = document.getElementById("word-category");
-//   categories.forEach((category) => {
-//     const option = document.createElement("option");
-//     option.value = category;
-//     option.textContent = category.charAt(0).toUpperCase() + category.slice(1);
-//     select.appendChild(option);
-//   });
-// }
 
 // Initialize wordData for each category
 categories.forEach((section) => {
