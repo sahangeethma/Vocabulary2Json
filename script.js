@@ -7,7 +7,11 @@ const categories = [
   {
     section: "Preparatory Lessons",
     disabled: true,
-    items: ["3-4. 안녕하세요", "5. 주말 잘 보내세요"],
+    items: [
+      "1-2. 한글 익히기",
+      "3-4. 안녕하세요",
+      "5. 주말 잘 보내세요
+    ],
   },
   {
     section: "Basic Life",
