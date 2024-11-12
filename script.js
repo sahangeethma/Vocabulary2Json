@@ -133,7 +133,7 @@ function createCategoryDropdown() {
     const sectionOption = document.createElement("option");
     sectionOption.textContent = section.section;
     sectionOption.disabled = section.disabled;
-    sectionOption.style.fontWeight = "bold"; // Optional: to make section title bold
+    sectionOption.style.fontWeight = "bold";
     select.appendChild(sectionOption);
 
     // Create options for each item in the section
@@ -214,11 +214,24 @@ document.getElementById("open-json").addEventListener("click", () => {
 // Handle form submission
 wordForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  const category = document.getElementById("word-category").value;
-  const koreanWord = document.getElementById("korean-word").value;
-  const sinhaleseWord = document.getElementById("sinhalese-word").value;
+  const categorySelect = document.getElementById("word-category");
+  const koreanWordInput = document.getElementById("korean-word");
+  const sinhaleseWordInput = document.getElementById("sinhalese-word");
+  
+  // Get the current values
+  const category = categorySelect.value;
+  const koreanWord = koreanWordInput.value;
+  const sinhaleseWord = sinhaleseWordInput.value;
+  
+  // Add the word
   addWord(category, koreanWord, sinhaleseWord);
-  wordForm.reset();
+  
+  // Clear only the input fields, keeping the category selection
+  koreanWordInput.value = "";
+  sinhaleseWordInput.value = "";
+  
+  // Set focus back to the Korean word input for convenience
+  koreanWordInput.focus();
 });
 
 // Handle copy JSON button click
