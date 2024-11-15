@@ -207,7 +207,7 @@ function deleteWord(category, index) {
 
 document.getElementById("open-json").addEventListener("click", () => {
   window.location.replace(
-    "https://github.com/sahangeethma/KoreanQuizV4/edit/main/words.json"
+    "https://github.com/sahangeethma/MyKR-DB/edit/main/words.json"
   );
 });
 
