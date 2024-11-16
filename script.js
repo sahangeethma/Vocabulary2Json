@@ -113,6 +113,18 @@ const categories = [
     disabled: true,
     items: ["59. 산업 안전Ⅰ", "60. 산업 안전Ⅱ"],
   },
+  {
+    section: "Categorize Word lists",
+    disabled: true,
+    items: [
+      "Numbers Korean Sys", 
+      "Numbers Chinese Sys", 
+      "Season/ Months/ Weeks/ Days", 
+      "Colors", 
+      "Occupations", 
+      "Places", 
+      "Counting Words",
+      "Synonyms/ Antonyms ",
 ];
 
 let wordData = [];
